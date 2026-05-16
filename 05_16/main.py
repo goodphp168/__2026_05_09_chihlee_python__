@@ -1,5 +1,8 @@
+from lesson1 import play_guess_number_game
+
+
 def main():
-    print("Hello from 05-16!")
+    play_guess_number_game()
 
 
 if __name__ == "__main__":
