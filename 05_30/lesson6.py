@@ -56,3 +56,27 @@ student_scores = [
 # 範例：列印第一位學生的資料
 for student in student_scores:
 	print(student)
+	
+#=================================
+
+# 計算每位學生總分與平均
+ranked_students = []
+
+for student in student_scores:
+    total = student["語文"] + student["數學"] + student["英語"] + student["物理"] + student["化學"]
+    average = total / 5
+    ranked_students.append({
+        "學生姓名": student["學生姓名"],
+        "總分": total,
+        "平均": average
+    })
+
+print("=== 所有學生總分與平均 ===")
+for s in ranked_students:
+    print(f"{s['學生姓名']}: 總分={s['總分']}, 平均={s['平均']:.2f}")
+
+top3 = sorted(ranked_students, key=lambda x: x["總分"], reverse=True)[:3]
+
+print("\n=== 前 3 名 ===")
+for i, s in enumerate(top3, start=1):
+    print(f"第{i}名 {s['學生姓名']}: 總分={s['總分']}, 平均={s['平均']:.2f}")
