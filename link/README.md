@@ -44,6 +44,5 @@ https://youtube.com/live/OXX6GATTqTY
 https://youtube.com/live/V1lOT_8hTCY
 
 ## 2026_06_13_下午
-https://meet.google.com/oam-rfvj-egs
-
+https://youtube.com/live/pPNPDGTg5XY
 ---
