@@ -45,4 +45,10 @@ https://youtube.com/live/V1lOT_8hTCY
 
 ## 2026_06_13_下午
 https://youtube.com/live/pPNPDGTg5XY
+
+---
+
+## 2026_06_27_上午
+https://www.youtube.com/watch?v=V-78xARVSig
+
 ---
